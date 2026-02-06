@@ -1,7 +1,7 @@
 
 ### Relationship Summary Diagram (Text + Symbols)
 ```text
- +-------------------+          +--------------------+
++-------------------+          +--------------------+
 |       User        |1        N|   PasswordVault    |
 +-------------------+----------+--------------------+
 | user_id (PK)      |          | password_id (PK)   |

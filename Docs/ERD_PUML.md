@@ -197,7 +197,7 @@ The application is designed as a standalone Java console application with a loca
 │           Development Environment                │
 ├──────────────────────────────────────────────────┤
 │  ┌─────────┐    ┌─────────┐    ┌─────────┐       │
-│  │ IntelliJ│───▶│  Maven  │───▶│   JVM   │      │
+│  │ IntelliJ│───▶│  Maven  │───▶│   JVM   │      │ 
 │  │  IDEA   │    │  Build  │    │ Runtime │       │
 │  └─────────┘    └─────────┘    └─────────┘       │
 │                      │                           │
@@ -228,13 +228,13 @@ Security is implemented in multiple defensive layers, ensuring protection of sen
 │              Security Architecture              │
 ├─────────────────────────────────────────────────┤
 │                                                 │
-│ 🔒 Layer 1: Input Validation                    │
+│ 🔒 Layer 1: Input Validation                   │
 │ • Email format validation                       │
 │ • Strong password rules                         │
 │ • Length & character checks                     │
 │ • SQL injection prevention                      │
 │                                                 │
-│ 🔑 Layer 2: Authentication                      │
+│ 🔑 Layer 2: Authentication                     │
 │ • Master password hashing (SHA-256 + Salt)      │
 │ • Secure login flow                             │
 │ • Session-level authentication                  │
