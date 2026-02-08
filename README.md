@@ -69,7 +69,7 @@ Run tests with:
     mvn test
 ```
 
-## 📂 Project Structu
+## 📂 Project Structure
 
 ```bash
 RevPasswordManager/

@@ -50,8 +50,8 @@
 ```text
 ### Relationships Summary
 ----------------------------------------------------------------------------------------------------------------|
-| Relationship             | Type | Description                                                                  |
-|------------------------- |------|----------------------------------------------------------------------------- |
+| Relationship             | Type | Description                                                                 |
+|------------------------- |------|----------------------------------------------------------------------------- 
 | User → PasswordVault     | 1:N  | A user can have multiple saved passwords in their vault.                    |
 | User → SecurityQuestion  | 1:N  | A user can set multiple security questions for account recovery.            |
 | User → VerificationCode  | 1:N  | A user can generate multiple verification codes for sensitive operations.   |
